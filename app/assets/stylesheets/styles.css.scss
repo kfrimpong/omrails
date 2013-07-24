@@ -1,8 +1,6 @@
 @import 'bootstrap';
 
-body {
-	padding-top: 60px;
-}
+html, body {background:none;height:100%; margin:0; padding:0; margin-top: 60px;}
 @import 'bootstrap-responsive';
 
 .footer {
@@ -11,4 +9,30 @@ body {
 	a {
 		color: $gray;
 	}
+}
+.homepagepic {
+	position:fixed; top:0; left:0; width:100%; height:100%;z-index:-1;}
+
+.container-fluid {
+	             padding: 0px;
+}
+
+.btn {margin-left: 30%; margin-top: 75%; position: fixed; width: 150px;
+
+}
+
+.btn-presenter {margin-left: 45%; margin-top: 75%; position: fixed; width: 150px; 
+
+
+}
+
+.summarywords { font: Helvetica W01 Bold; font-size: 90px; 
+	font-weight: bold; margin-left: 20%; margin-top: 35%; 
+	position: fixed; color: white; line-height: 100px;
+
+}
+
+.title {
+	margin-left: 700px; font-family: Damion; font-size: 200px; position: fixed; color: yellow; margin-top: 200px;
+
 }
