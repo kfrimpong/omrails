@@ -8,6 +8,8 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :first_name, :last_name, :email, :password, :password_confirmation, :name, :remember_me
+
+  has_many :pins
 end
 
 
